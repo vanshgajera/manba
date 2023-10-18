@@ -1,0 +1,144 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 60px;
+}
+.logo h1{
+  font-size: 24px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  color:#2A6EB3;
+}
+.toggleBtn {
+  border: 2px solid #171742;
+  font-size: 20px;
+}
+
+.navBar_Collapse ul li {
+  padding: 0 10px;
+  position: relative;
+}
+.navBar_Collapse ul li a {
+  color:#171742;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  position: relative;
+}
+.navBar_Collapse ul li a::after {
+  content: "";
+  background-color: #171742;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -8px;
+  transition: 0.4s all;
+}
+.navBar_Collapse ul li a:hover::after {
+  content: "";
+  position: absolute;
+  background-color: lightorange;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: -8px;
+}
+
+
+
+/*Responsive Home Page navbar */
+
+/* iPad 991px */
+@media (max-width: 991px) {
+  .mainBtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainBtn .HeaderBtn {
+    margin-bottom: 10px;
+  }
+  .mainBtn .HeaderBtn2 {
+    margin: 0;
+  }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+  .mainBtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainBtn .HeaderBtn {
+    margin-bottom: 10px;
+  }
+  .mainBtn .HeaderBtn2 {
+    margin: 0;
+  }
+}
+
+/* Iphone 567px */
+@media (max-width: 567px) {
+  .mainBtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainBtn .HeaderBtn {
+    margin-bottom: 10px;
+  }
+  .mainBtn .HeaderBtn2 {
+    margin: 0;
+  }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+  .logo h1{
+    display: none;
+  }
+  .mainBtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainBtn .HeaderBtn {
+    margin-bottom: 10px;
+  }
+  .mainBtn .HeaderBtn2 {
+    margin: 0;
+  }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+  .logo h1{
+    display: none;
+  }
+  .mainBtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainBtn .HeaderBtn {
+    margin-bottom: 10px;
+  }
+  .mainBtn .HeaderBtn2 {
+    margin: 0;
+  }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+ 
+  .mainBtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainBtn .HeaderBtn {
+    margin-bottom: 10px;
+  }
+  .mainBtn .HeaderBtn2 {
+    margin: 0;
+  }
+}

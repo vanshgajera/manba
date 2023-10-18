@@ -1,0 +1,281 @@
+.cashLoan {
+  padding: 100px 0;
+  background-image: url(../Assets/cashloanimg.png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.leftContent img {
+  height: 550px;
+  border-radius: 40px;
+  border: 10px solid #FEFEFE;
+  background: rgba(0, 0, 0, 0.20);
+}
+
+.cashLoan h3 {
+  font-size: 43px;
+  font-weight: 500;
+}
+.cashLoan span {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0;
+  color: #00adef;
+}
+.cashLoan p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.cashLoan a{
+  background-color: #fff;
+  border: 3px solid #55a0e4;
+}
+
+
+/*Responsive Home Page */
+/* Desktop 1600px */
+@media (max-width: 1850px) {
+  .cashLoan h3 {
+    font-size: 43px;
+    font-weight: 500;
+  }
+  .cashLoan span {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+  }
+  .cashLoan p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+  .cashLoan h3 {
+    font-size: 43px;
+    font-weight: 500;
+  }
+  .cashLoan span {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+  }
+  .cashLoan p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+  .cashLoan h3 {
+    font-size: 43px;
+    font-weight: 500;
+  }
+  .cashLoan span {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+  }
+  .cashLoan p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+    .leftContent img{
+        height: 600px;
+    }
+  .cashLoan h3 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+  .cashLoan span {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+  }
+  .cashLoan p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0;
+  }
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+    .cashLoan{
+        text-align: center;
+    }
+    .leftContent img{
+        height: 500px;
+        margin-bottom: 30px;
+    }
+  .cashLoan h3 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .cashLoan span {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0 50px;
+  }
+  .cashLoan p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+  }
+  .cashLoan .aboutBtn {
+    font-size: 16px;
+    padding: 10px 50px;
+  }
+
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .cashLoan{
+        text-align: center;
+    }
+.leftContent img{
+    height: 500px;
+    margin-bottom: 20px;
+}
+  .cashLoan h3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .cashLoan span {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0 50px;
+  }
+  .cashLoan p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+  }
+  .cashLoan .aboutBtn {
+    font-size: 16px;
+  }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+    .cashLoan{
+        text-align: center;
+    }
+.leftContent img{
+    height: 500px;
+    margin-bottom: 20px;
+}
+  .cashLoan h3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .cashLoan span {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 20px 0 50px;
+  }
+  .cashLoan p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+  }
+  .cashLoan .aboutBtn {
+    font-size: 16px;
+  }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+    .cashLoan{
+        text-align: center;
+    }
+.leftContent img{
+    height: 300px;
+    margin-bottom: 20px;
+}
+  .cashLoan h3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .cashLoan span {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 20px 0 50px;
+  }
+  .cashLoan p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+  }
+  .cashLoan .aboutBtn {
+    font-size: 16px;
+  }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+  .cashLoan {
+    text-align: center;
+  }
+  .leftContent img {
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .cashLoan h3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .cashLoan span {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 20px 0 50px;
+  }
+  .cashLoan p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+  }
+  .cashLoan .aboutBtn {
+    font-size: 16px;
+  }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+  .cashLoan {
+    text-align: center;
+  }
+  .leftContent img {
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .cashLoan h3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .cashLoan span {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 20px 0 50px;
+  }
+  .cashLoan p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+  }
+  .cashLoan .aboutBtn {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,850 @@
+.bgg {
+  background-image: url("../Assets/Contact-Us-Page.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px 0;
+}
+
+.firsthead {
+  padding-top: 50px;
+  color: #00adef;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  padding-left: 10px;
+  text-align: start;
+}
+
+.firstpara {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 10px;
+}
+
+.from_input {
+  color: #757575;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.inputText {
+  margin-bottom: 50px;
+  padding-right: 10px;
+}
+
+.inputss {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 51px;
+  width: 634px;
+}
+
+.from_input input {
+  border: none;
+  border-bottom: 1px solid #3498db;
+  background-color: transparent;
+  text-align: left;
+  padding-right: 120px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.from_input  .error {
+  font-size: 12px;
+  line-height: 1.2;
+  display: inline-block;
+  color: #ff0000;
+  margin-top: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+.box img{
+  transition: 0.4s all;
+}
+.box img:hover{
+transform: translateY(-20px);
+}
+.select {
+  width: 563px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #3498db;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.message_input {
+  width: 972.652px;
+  height: 156.813px;
+  color: #757575;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 99px;
+  padding-left: 10px;
+  padding-right: 0!important;
+  margin-bottom: 50px;
+}
+
+.help_you {
+  color: #00adef;
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.help_para {
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 20px 0 50px;
+}
+
+.section {
+  border-radius: 15px;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.20);
+  /* background: #f1fafe; */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 100px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+::placeholder{
+  text-align: start;
+}
+
+.box {
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 41px;
+
+}
+.box img {
+  width: 70px;
+}
+.box p {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.box h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 15px;
+}
+.contact {
+  padding: 80px 0;
+}
+/* CSS */
+/* .button-65 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #00adef;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 14px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 350px;
+  height: 70px;
+}
+
+.button-65:hover {
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}
+
+.button-65:hover:after {
+  opacity: 0.5;
+}
+
+.button-65:active {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px 0, rgba(0, 0, 0, 0.1) 0 0 10px 0,
+    rgba(0, 0, 0, 0.1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: 0.35s;
+}
+
+.button-65:active:after {
+  opacity: 1;
+} */
+
+/*Desktop 1600px*/
+@media (max-width: 1850px) {
+  .section {
+    padding: 100px 0;
+    padding-left: 35px;
+  }
+  .help_you {
+    font-size: 50px;
+    padding-left: 45px;
+  }
+  .help_para {
+    font-size: 25px;
+    padding-left: 45px;
+  }
+  .firsthead {
+    font-size: 43px;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+
+  .firstpara {
+    font-size: 20px;
+  }
+
+  .from_input {
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+
+  .inputText {
+    margin-bottom: 43px;
+  }
+
+  .message_input {
+    padding-left: 10px;
+    width: 1021px;
+    height: 140px;
+  }
+
+  .inputss {
+    padding-bottom: 45px;
+  }
+
+  /* .button-65 {
+    width: 250px;
+    text-align: center;
+  } */
+}
+
+/*Desktop 1440px*/
+@media (max-width: 1440px) {
+  .section {
+    padding: 100px 0;
+    padding-left: 35px;
+  }
+  .help_you {
+    font-size: 50px;
+    padding-left: 45px;
+  }
+  .help_para {
+    font-size: 25px;
+    padding-left: 45px;
+  }
+  .firsthead {
+    font-size: 43px;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+  .firstpara {
+    font-size: 20px;
+  }
+
+  .from_input {
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+
+  .inputText {
+    margin-bottom: 43px;
+  }
+
+  .message_input {
+    padding-left: 10px;
+    width: 1038px;
+    height: 140px;
+  }
+
+  .inputss {
+    padding-bottom: 45px;
+  }
+
+  /* .button-65 {
+    width: 250px;
+    text-align: center;
+  } */
+}
+
+/*Desktop 1280px*/
+@media (max-width: 1366px) {
+  .section {
+    padding: 100px 0;
+    padding-left: 30px;
+  }
+  .help_you {
+    font-size: 45px;
+    padding-left: 45px;
+  }
+  .help_para {
+    font-size: 22px;
+    padding-left: 45px;
+  }
+  .box {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+  .firsthead {
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+
+  .firstpara {
+    font-size: 17px;
+  }
+.box p{
+  font-size: 16px;
+}
+  .from_input {
+    padding-right: 20px;
+    padding-top: 15px;
+    font-size: 17px;
+  }
+
+  .select.inputText {
+    font-size: 17px;
+  }
+
+  .inputText {
+    margin-bottom: 43px;
+  }
+
+  .message_input {
+    padding-left: 10px;
+    width: 887px;
+    height: 131px;
+    font-size: 17px;
+  }
+
+  .inputss {
+    padding-bottom: 40px;
+  }
+
+  /* .button-65 {
+    width: 225px;
+    text-align: center;
+    font-size: 18px;
+  } */
+}
+
+/*iPad 1024px*/
+@media (max-width: 1199px) {
+  .section {
+    padding: 100px 0;
+    padding-left: 30px;
+  }
+  .help_you {
+    font-size: 40px;
+    padding-left: 45px;
+  }
+  .help_para {
+    font-size: 20px;
+    padding-left: 45px;
+  }
+  .firsthead {
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+
+  .firstpara {
+    font-size: 17px;
+  }
+
+  .from_input {
+    padding-right: 20px;
+    padding-top: 15px;
+    font-size: 17px;
+  }
+
+  .select.inputText {
+    font-size: 16px;
+  }
+
+  .inputText {
+    margin-bottom: 43px;
+  }
+
+  .message_input {
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 810px;
+    height: 117px;
+    font-size: 16px;
+  }
+
+  .inputss {
+    padding-bottom: 40px;
+  }
+.contact{
+  text-align: center;
+}
+  /* .button-65 {
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+  } */
+}
+
+/*iPad 991px*/
+@media (max-width: 991px) {
+  .section {
+    padding: 100px 0;
+    padding-left: 30px;
+    text-align: center;
+  }
+  .help_you {
+    font-size: 35px;
+    padding-left: 45px;
+  }
+  .help_para {
+    font-size: 18px;
+    padding-left: 45px;
+  }
+  .firsthead {
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .firstpara {
+    font-size: 17px;
+    margin: 20px 0;
+  }
+
+  .from_input {
+    padding-right: 20px;
+    padding-top: 15px;
+    font-size: 17px;
+  }
+
+  .select.inputText {
+    font-size: 16px;
+    width: 334px;
+  }
+
+  .inputText {
+    margin-bottom: 43px;
+  }
+
+  .message_input {
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 560px;
+    height: 92px;
+    font-size: 16px;
+  }
+
+  .inputss {
+    padding-bottom: 40px;
+  }
+
+  /* .button-65 {
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+  } */
+}
+
+/*Iphone 767px*/
+@media (max-width: 767px) {
+  .section {
+    padding: 100px 50px;
+    padding-left: 30px;
+    text-align: center;
+  }
+  .help_you {
+    font-size: 30px;
+    padding-left: 45px;
+  }
+  .help_para {
+    font-size: 15px;
+    padding-left: 45px;
+  }
+  .firsthead {
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+
+  .firstpara {
+    font-size: 17px;
+  }
+
+  .from_input {
+    padding-right: 20px;
+    padding-top: 15px;
+    font-size: 17px;
+  }
+
+  .select.inputText {
+    font-size: 16px;
+    width: 334px;
+  }
+
+  .inputText {
+    margin-bottom: 43px;
+  }
+  .from_input input {
+    padding-right: 75px;
+  }
+  .message_input {
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 100%;
+    height: 92px;
+    font-size: 16px;
+  }
+
+  .inputss {
+    padding-bottom: 40px;
+  }
+
+  /* .button-65 {
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+  } */
+}
+
+/*Iphone 567px*/
+@media (max-width: 567px) {
+  .bgg {
+    padding: 146px 0;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .help_you {
+    font-size: 30px;
+    padding-left: 40px;
+  }
+  .help_para {
+    font-size: 15px;
+    padding-left: 40px;
+  }
+  .section {
+    padding: 100px 50px;
+    padding-left: 30px;
+    text-align: center;
+  }
+
+  .firsthead {
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+
+  .firstpara {
+    font-size: 17px;
+  }
+
+  .from_input {
+    padding-right: 20px;
+    padding-top: 15px;
+    font-size: 17px;
+  }
+
+  .select.inputText {
+    font-size: 16px;
+    width: 334px;
+  }
+
+  .inputText {
+    margin-bottom: 43px;
+  }
+  .from_input input {
+    padding-right: 75px;
+  }
+  .message_input {
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 100%;
+    height: 92px;
+    font-size: 16px;
+  }
+
+  .inputss {
+    padding-bottom: 40px;
+  }
+
+  /* .button-65 {
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+  } */
+}
+
+/*Mobile 375px*/
+@media (max-width: 375px) {
+ 
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .help_you {
+    font-size: 30px;
+    padding-left: 38px;
+  }
+  .help_para {
+    font-size: 15px;
+    padding-left: 38px;
+  }
+  .section {
+    padding: 100px 50px;
+    padding-left: 30px;
+    text-align: center;
+  }
+
+  .firsthead {
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+
+  .firstpara {
+    font-size: 17px;
+  }
+
+  .from_input {
+    padding-right: 15px;
+    padding-top: 15px;
+    font-size: 14px;
+  }
+
+  .select.inputText {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .inputText {
+    margin-bottom: 37px;
+  }
+
+  .message_input {
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 100%;
+    height: 92px;
+    font-size: 16px;
+  }
+  .from_input input {
+    padding-right: 75px;
+  }
+  .inputss {
+    padding-bottom: 15px;
+  }
+
+  /* .button-65 {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+  } */
+}
+
+/*Mobile 360px*/
+@media (max-width: 360px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .help_you {
+    font-size: 30px;
+    padding-left: 34px;
+  }
+  .help_para {
+    font-size: 15px;
+    padding-left: 34px;
+  }
+  .section {
+    padding: 100px 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  .firsthead {
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+
+  .firstpara {
+    font-size: 17px;
+  }
+
+  .from_input {
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+  .select.inputText {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .inputText {
+    margin-bottom: 40px;
+  }
+
+  .message_input {
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 100%;
+    height: 92px;
+    font-size: 16px;
+  }
+
+  .inputss {
+    padding-bottom: 15px;
+  }
+  .from_input input {
+    padding-right: 73px;
+  }
+  /* .button-65 {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+  } */
+}
+
+/*Mobile 320px*/
+@media (max-width: 320px) {
+ 
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .help_you {
+    font-size: 30px;
+    padding-left: 34px;
+  }
+  .help_para {
+    font-size: 15px;
+    padding-left: 34px;
+  }
+  .s .section {
+    padding: 100px 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .firsthead {
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 5px;
+  }
+
+  .firstpara {
+    font-size: 15px;
+  }
+
+  .from_input {
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+  .from_input input {
+    padding-right: 60px;
+  }
+
+  .select.inputText {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .inputText {
+    margin-bottom: 40px;
+  }
+
+  .message_input {
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 60px;
+    width: 90%;
+    height: 80px;
+    font-size: 16px;
+  }
+
+  .inputss {
+    padding-bottom: 10px;
+  }
+
+  /* .button-65 {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+  } */
+}

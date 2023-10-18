@@ -1,0 +1,343 @@
+.document {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.document h3 {
+  font-size: 43px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
+  text-align: start;
+}
+.document span {
+  color: #00adef;
+  font-weight: 600;
+  display: block;
+}
+.document p {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 50px 0 79px;
+  text-align: start;
+}
+.documentText {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.documentText img {
+  width: 130px;
+  border-radius: 50%;
+  transition: 0.4s all;
+}
+.documentText img:hover{
+  transform: scale(1.1);
+}
+.documentText h5 {
+  color: #000;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+
+/* Desktop 1600px */
+@media (max-width: 1850px) {
+    .document {
+        padding: 100px 0;
+      }
+      .document h3 {
+        font-size: 43px;
+        font-weight: 500;
+      }
+      .document span {
+        margin-left: 10px;
+      }
+      .document p {
+        font-size: 20px;
+        margin: 30px 0 60px;
+      }
+      .documentText {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+  
+      .documentText h5 {
+        font-size: 25px;
+        margin-left: 10px;
+        text-align: center;
+    }
+}
+
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+    .document {
+        padding: 100px 0;
+      }
+      .document h3 {
+        font-size: 43px;
+      }
+      .document span {
+        margin-left: 10px;
+      }
+      .document p {
+        font-size: 20px;
+        margin: 30px 0 60px;
+      }
+      .documentText {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+  
+      .documentText h5 {
+        font-size: 25px;
+        margin-left: 10px;
+        text-align: center;
+    }
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+    .document {
+        padding: 100px 0;
+      }
+      .document h3 {
+        font-size: 43px;
+      }
+      .document span {
+        margin-left: 10px;
+      }
+      .document p {
+        font-size: 25px;
+        margin: 30px 0 60px;
+      }
+      .documentText {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+  
+      .documentText h5 {
+        font-size: 20px;
+        margin-left: 10px;
+        text-align: center;
+    }
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+    .document {
+        padding: 100px 0;
+      }
+      .document h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+      .document span {
+        margin-left: 10px;
+      }
+      .document p {
+        font-size: 20px;
+        margin: 30px 0 60px;
+        text-align: center;
+      }
+      .documentText {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+  
+      .documentText h5 {
+        font-size: 20px;
+        margin-left: 10px;
+        text-align: center;
+    }
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+    .document {
+        padding: 100px 0;
+      }
+      .document h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+      .document span {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .document p {
+        font-size: 20px;
+        margin: 30px 0 60px;
+        text-align: center;
+      }
+      .documentText {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+  
+      .documentText h5 {
+        font-size: 20px;
+        margin-left: 10px;
+        text-align: center;
+   
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .document {
+        padding: 100px 0;
+      }
+      .document h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+      .document span {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .document p {
+        font-size: 20px;
+        margin: 30px 0 60px;
+        text-align: center;
+      }
+      .documentText {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+  
+      .documentText h5 {
+        font-size: 20px;
+        margin-left: 10px;
+        text-align: center;
+   
+    }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+    .document {
+        padding: 100px 0;
+      }
+      .document h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+      .document span {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .document p {
+        font-size: 20px;
+        margin: 30px 0 60px;
+        text-align: center;
+      }
+      .documentText {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+  
+      .documentText h5 {
+        font-size: 20px;
+        margin-left: 10px;
+        text-align: center;
+   
+    }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+  .document {
+    padding: 100px 0;
+  }
+  .document h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .document span {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .document p {
+    font-size: 18px;
+    margin: 30px 0 60px;
+    text-align: center;
+  }
+  .documentText {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .documentText h5 {
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: start;
+  }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+  .document {
+    padding: 100px 0;
+  }
+  .document h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .document p {
+    font-size: 18px;
+    margin: 30px 0 60px;
+    text-align: center;
+  }
+  .documentText {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .documentText h5 {
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: start;
+  }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+  .document {
+    padding: 100px 0;
+  }
+  .document h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .document p {
+    font-size: 18px;
+    margin: 30px 0 60px;
+    text-align: center;
+  }
+  .documentText {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .documentText h5 {
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: start;
+  }
+}

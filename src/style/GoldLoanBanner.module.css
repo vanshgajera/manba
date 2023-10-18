@@ -1,0 +1,147 @@
+.loanBanner {
+  padding: 250px 0 300px;
+  background-image: url(../Assets/HomeLoanBannerimg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.loanBanner h3 {
+  color: #fff;
+  font-size: 43px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+.loanBanner span {
+  display: block;
+  color: #00adef;
+  font-size: 43px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.loanBanner p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+  .loanBanner {
+    padding: 100px 0;
+  }
+  .loanBanner h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .loanBanner span {
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .loanBanner p {
+    font-size: 18px;
+    padding: 0 50px;
+  }
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+  .loanBanner {
+    padding: 100px 0;
+  }
+  .loanBanner h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .loanBanner span{
+    display: block;
+  }
+  .loanBanner p {
+    font-size: 20px;
+    padding: 0 50px;
+  }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+  .loanBanner {
+    padding: 100px 0;
+  }
+  .loanBanner h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .loanBanner p {
+    font-size: 20px;
+    padding: 0 50px;
+  }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+  .loanBanner {
+    padding: 100px 0;
+  }
+  .loanBanner h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .loanBanner p {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+  .loanBanner {
+    padding: 100px 0;
+  }
+  .loanBanner h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .loanBanner p {
+    font-size: 16px;
+    padding: 0;
+  }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+  .loanBanner {
+    padding: 100px 0;
+  }
+  .loanBanner h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .loanBanner p {
+    font-size: 16px;
+    padding: 0;
+  }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+  .loanBanner {
+    padding: 100px 0;
+  }
+  .loanBanner h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .loanBanner p {
+    font-size: 16px;
+    padding: 0;
+  }
+}

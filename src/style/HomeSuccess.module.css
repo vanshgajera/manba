@@ -1,0 +1,153 @@
+.success {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.successText:hover img{
+  transform: translateY(-25px);
+}
+.successText img {
+  width: 130px;
+  transition: 0.4s all;
+}
+.successText span {
+  display: block;
+  margin: 20px 0;
+  color: #726d6d;
+  font-size: 40px;
+  font-weight: 400;
+}
+.successText p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 42px;
+}
+
+
+/* iPad 768px */
+@media (max-width: 991px) {
+    .successText{
+        margin-top: 50px;
+    }
+    .successText img {
+        width: 100px;
+      }
+      .successText span {
+        margin: 15px 0;
+        font-size: 28px;
+        font-weight: 500;
+      }
+      .successText p {
+        font-size: 22px;
+        font-weight: 400;
+      }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .successText{
+        margin-top: 50px;
+    }
+    .successText img {
+        width: 100px;
+      }
+      .successText span {
+        margin: 15px 0;
+        font-size: 28px;
+        font-weight: 500;
+      }
+      .successText p {
+        font-size: 22px;
+        font-weight: 400;
+        padding: 0;
+      }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+    .successText{
+        margin-top: 50px;
+    }
+    .successText img {
+        width: 100px;
+      }
+      .successText span {
+        margin: 15px 0;
+        font-size: 25px;
+        font-weight: 500;
+      }
+      .successText p {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0;
+      }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+    .success{
+        padding: 50px 0;
+    }
+    .successText{
+        margin-top: 50px;
+    }
+    .successText img {
+        width: 100px;
+      }
+      .successText span {
+        margin: 15px 0;
+        font-size: 25px;
+        font-weight: 500;
+      }
+      .successText p {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0;
+      }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+    .success{
+        padding: 50px 0;
+    }
+    .successText{
+        margin-top: 50px;
+    }
+    .successText img {
+        width: 100px;
+      }
+      .successText span {
+        margin: 15px 0;
+        font-size: 25px;
+        font-weight: 500;
+      }
+      .successText p {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 60px;
+      }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+    .success{
+        padding: 50px 0;
+    }
+    .successText{
+        margin-top: 50px;
+    }
+    .successText img {
+        width: 100px;
+      }
+      .successText span {
+        margin: 15px 0;
+        font-size: 25px;
+        font-weight: 500;
+      }
+      .successText p {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 60px;
+      }
+}

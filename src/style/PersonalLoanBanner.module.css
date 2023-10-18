@@ -1,0 +1,190 @@
+.personalBanner{
+    padding: 300px 0;
+    background-image: url(../Assets/personalLoanBanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.personalBanner h3{
+    color: rgba(255, 255, 255, 0.80);
+font-size: 43px;
+font-weight: 600;
+text-transform: capitalize;
+line-height: 1.3;
+}
+.personalBanner span{
+    color: #00ADEF;
+    display: block;
+}
+.personalBanner p{
+    color: #FFF;
+font-size: 20px;
+font-weight: 500;
+text-transform: capitalize;
+margin-top: 50px;
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+    .personalBanner{
+        padding: 200px 0;
+    }
+    
+.personalBanner p{
+    padding-right: 520px;
+}
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+    .personalBanner{
+        padding: 100px 0;
+    }
+    
+    .personalBanner h3{
+    font-size: 30px;
+    line-height: 1.4;
+    }
+    .personalBanner span{
+        display:block;
+        margin-left: 10px;
+    }
+    .personalBanner p{
+    font-size: 18px;
+    margin-top: 40px;
+line-height: 1.5;    
+padding-right: 395px; 
+}
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+    .personalBanner{
+        padding: 100px 0;
+    }
+    
+    .personalBanner h3{
+    font-size: 30px;
+    line-height: 1.4;
+    }
+    .personalBanner span{
+        display:block;
+        margin-left: 10px;
+    }
+    .personalBanner p{
+    font-size: 18px;
+    margin-top: 40px;
+line-height: 1.5;    
+padding-right: 230px; 
+}
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .personalBanner{
+        padding: 100px 0;
+    }
+    
+    .personalBanner h3{
+    font-size: 30px;
+    line-height: 1.4;
+    }
+    .personalBanner span{
+        display:block;
+        margin-left: 10px;
+    }
+    .personalBanner p{
+    font-size: 18px;
+    margin-top: 40px;
+line-height: 1.5;    
+padding-right: 150px; 
+}
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+    .personalBanner{
+        padding: 100px 0;
+    }
+    
+    .personalBanner h3{
+    font-size: 30px;
+    line-height: 1.4;
+    }
+    .personalBanner span{
+        display:block;
+        margin-left: 10px;
+    }
+    .personalBanner p{
+    font-size: 16px;
+    margin-top: 50px;
+line-height: 1.5;   
+padding-right: 85px; 
+}
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+    .personalBanner{
+        padding: 100px 0;
+        text-align: center;
+    }
+    
+    .personalBanner h3{
+    font-size: 30px;
+    line-height: 1.4;
+    }
+    .personalBanner span{
+        display:inline-block;
+        margin-left: 10px;
+    }
+    .personalBanner p{
+    font-size: 16px;
+    margin-top: 50px;
+line-height: 1.5;    
+}
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+    .personalBanner{
+        padding: 100px 0;
+    }
+    
+    .personalBanner h3{
+    font-size: 30px;
+    line-height: 1.4;
+    }
+    .personalBanner span{
+        display:inline-block;
+        margin-left: 10px;
+    }
+    .personalBanner p{
+    font-size: 16px;
+    margin-top: 50px;
+line-height: 1.5;    
+}
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+    .personalBanner{
+        padding: 100px 0;
+    }
+    
+    .personalBanner h3{
+    font-size: 30px;
+    line-height: 1.4;
+    }
+    .personalBanner span{
+        display:inline-block;
+        margin-left: 10px;
+    }
+    .personalBanner p{
+    font-size: 16px;
+    margin-top: 30px;
+line-height: 1.5;
+padding: 0 85px 0 0;    
+}
+}

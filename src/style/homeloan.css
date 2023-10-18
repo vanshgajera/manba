@@ -1,0 +1,604 @@
+
+    p {
+        font-size: 16px;
+        font-family: Poppins;
+    }
+
+    h1,
+    h2,
+    h3,
+    h6 {
+        font-size: 40px;
+    }
+
+
+.bg {
+    background-image: url("../Assets/setupTests.js.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0;
+}
+
+.para {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 300;
+
+}
+
+.head1 h2 {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 43px;
+    text-transform: capitalize;
+    font-weight: 900;
+    line-height: 1.6;
+}
+
+.head1 span{
+    color: #00ADEF;
+   display: block;
+}
+
+.choose {
+    background: #F1FAFE;
+    box-shadow: 5px 1px 19px 0px rgba(0, 0, 0, 0.1);
+    padding: 50px 0;
+}
+
+.choosehead {
+    color: #000;
+    font-family: Poppins;
+    font-size: 43px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.choosepara {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.homehead {
+    color: #00ADEF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.homeloan {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.homeloansImg {
+    position: relative;
+    left: -13px;
+
+}
+
+.easyLowest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.easyLowest h3 {
+    color: #00ADEF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 25px 0;
+    text-transform: capitalize;
+}
+
+.easyLowest img{
+    width: 100px;
+    transition: 0.4s all;
+}
+.easyLowest img:hover{
+    transform: translatey(-20px);
+}
+.easyLowest p {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 50px;
+    text-transform: capitalize;
+}
+
+.homeloannn {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 90px;
+}
+
+.toolshead {
+    color: #000;
+    padding-top: 80px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.multibank {
+    color: #00ADEF;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 43px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.disconuthead {
+    color: #00ADEF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    left: 27px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+
+}
+
+.discountpara {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    left: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.borrow {
+    border-radius: 25px;
+    background: #F1FAFE;
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 319px;
+    height: 430px;
+    margin: 10px;
+}
+
+.mainpoint {
+    display: flex;
+    justify-content: space-around;
+}
+
+.discount {
+    padding-top: 100px;
+    position: relative;
+    left: 100px;
+}
+
+/*Responsive Home Page */
+/* Desktop 1600px */
+@media (max-width: 1850px) {
+
+}
+
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+    .para {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .head1 h2 {
+        font-size: 30px;
+    }
+    
+    .head1 span{
+       display: block;
+    }
+ 
+    
+    .choosehead {
+        font-size: 43px;
+    }
+    
+    .choosepara {
+        font-size: 14px;
+        padding: 0 100px;
+    }
+    
+    .homehead {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+    .easyLowest {
+        padding-top: 45px;
+    }
+    
+    .easyLowest h3 {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+    .easyLowest p {
+        font-size: 16px;
+        padding: 0 36px;
+    }
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+    .para {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .head1 h2 {
+        font-size: 30px;
+    }
+    
+    .head1 span{
+       display: block;
+    }
+ 
+    
+    .choosehead {
+        font-size: 30px;
+    }
+    
+    .choosepara {
+        font-size: 14px;
+        padding: 0 100px;
+    }
+    
+    .homehead {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+    .easyLowest {
+        padding-top: 45px;
+    }
+    
+    .easyLowest h3 {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+    .easyLowest p {
+        font-size: 16px;
+        padding: 0 36px;
+    }
+   
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+    .para {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .head1 h2 {
+        font-size: 30px;
+    }
+    
+    .head1 span{
+       display: block;
+    }
+ 
+    
+    .choosehead {
+        font-size: 30px;
+    }
+    
+    .choosepara {
+        font-size: 14px;
+    }
+    
+    .homehead {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+    .easyLowest {
+        padding-top: 45px;
+    }
+    
+    .easyLowest h3 {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+    .easyLowest p {
+        font-size: 16px;
+        padding: 0;
+    }
+    .toolshead {
+        font-size: 20px;
+    }
+    .multibank {
+        font-size: 30px;
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .para {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    
+    .head1 h2 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .head1 span{
+       display: block;
+    }
+ 
+    
+    .choosehead {
+        font-size: 30px;
+    }
+    
+    .choosepara {
+        font-size: 14px;
+    }
+    
+    .homehead {
+        font-size: 24px;
+    }
+    
+    .easyLowest {
+        padding-top: 45px;
+    }
+    
+    .easyLowest h3 {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+    
+    .easyLowest img{
+        width: 100px;
+    }
+    .easyLowest p {
+        font-size: 16px;
+        padding: 0;
+    }
+    .toolshead {
+        font-size: 20px;
+    }
+    .multibank {
+        font-size: 30px;
+    }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+    .para {
+        font-size: 24px;
+        font-weight: 300;
+    }
+    
+    .head1 h2 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .head1 span{
+       display: block;
+    }
+ 
+    
+    .choosehead {
+        font-size: 30px;
+    }
+    
+    .choosepara {
+        font-size: 14px;
+    }
+    
+    .homehead {
+        font-size: 24px;
+    }
+    
+    .easyLowest {
+        padding-top: 45px;
+    }
+    
+    .easyLowest h3 {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+    .easyLowest p {
+        font-size: 16px;
+        padding: 0;
+    }
+    .toolshead {
+        font-size: 20px;
+    }
+    .multibank {
+        font-size: 30px;
+    }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+    .para {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 24px;
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+    
+    .head1 h2 {
+        font-size: 30px;
+    }
+    
+    .head1 span{
+       display: block;
+    }
+ 
+    
+    .choosehead {
+        font-size: 30px;
+    }
+    
+    .choosepara {
+        font-size: 14px;
+    }
+    
+    .homehead {
+        font-size: 24px;
+    }
+    
+    .easyLowest {
+        padding-top: 45px;
+    }
+    
+    .easyLowest h3 {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+    .easyLowest p {
+        font-size: 16px;
+        padding: 0;
+    }
+    .toolshead {
+        font-size: 20px;
+    }
+    .multibank {
+        font-size: 30px;
+    }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+    .para {
+        font-size: 24px;
+        font-weight: 300;
+    }
+    
+    .head1 h2 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .head1 span{
+       display: block;
+    }
+ 
+    
+    .choosehead {
+        font-size: 30px;
+    }
+    
+    .choosepara {
+        font-size: 14px;
+    }
+    
+    .homehead {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+    .easyLowest {
+        padding-top: 45px;
+    }
+    
+    .easyLowest h3 {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+    .easyLowest p {
+        font-size: 16px;
+        padding: 0;
+    }
+    .toolshead {
+        font-size: 20px;
+    }
+    .multibank {
+        font-size: 30px;
+    }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+    .para {
+        font-size: 24px;
+        font-weight: 300;
+    }
+    
+    .head1 h2 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .head1 span{
+       display: block;
+    }
+ 
+    
+    .choosehead {
+        font-size: 30px;
+    }
+    
+    .choosepara {
+        font-size: 14px;
+        padding: 0;
+    }
+    
+    .homehead {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+    .easyLowest {
+        padding-top: 45px;
+    }
+    
+    .easyLowest h3 {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+    .easyLowest p {
+        font-size: 16px;
+        padding: 0;
+    }
+    .toolshead {
+        font-size: 20px;
+    }
+    .multibank {
+        font-size: 30px;
+    }
+}

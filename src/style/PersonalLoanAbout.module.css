@@ -1,0 +1,296 @@
+.personalAbout {
+  padding-top: 80px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.personalAbout h3 {
+  color: #00adef;
+  font-size: 43px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.personalAbout p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 250px;
+  margin: 30px 0;
+  text-transform: capitalize;
+}
+
+.aboutText {
+  width: 431px;
+  height: 422px;
+  border-radius: 20px;
+  flex-shrink: 0;
+  border: 1px solid #979797;
+  box-shadow: 8px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.aboutText .icon {
+  transition: 0.4s all;
+}
+.aboutText:hover .icon {
+  transform: translatey(-30px);
+}
+.aboutText p {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 0 20px;
+}
+
+/* Desktop 1600px */
+@media (max-width: 1850px) {
+    
+      .personalAbout h3 {
+        font-size: 43px;
+        margin-bottom: 50px;
+      }
+      .personalAbout p {
+        font-size: 16px;
+        padding: 0 150px;
+        margin: 30px 0 50px;
+      }
+    
+      .aboutText {
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        padding: 40px 20px;
+      }
+      .aboutText p {
+        font-size: 20px;
+        padding: 0 50px;
+      }
+}
+
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+   
+      .personalAbout h3 {
+        font-size: 43px;
+        margin-bottom: 50px;
+      }
+      .personalAbout p {
+        font-size: 16px;
+        padding: 0 150px;
+        margin: 0 0 50px;
+      }
+    
+      .aboutText {
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        padding: 40px 20px;
+      }
+      .aboutText p {
+        font-size: 20px;
+        padding: 0 50px;
+      }
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+    
+      .personalAbout h3 {
+        font-size: 30px;
+        margin-bottom: 50px;
+      }
+      .personalAbout p {
+        font-size: 16px;
+        padding: 0 100px;
+        margin: 30px 0 50px;
+      }
+    
+      .aboutText {
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        padding: 40px 20px;
+      }
+      .aboutText p {
+        font-size: 16px;
+        padding: 0 50px;
+      }
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+  
+      .personalAbout h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      .personalAbout p {
+        font-size: 16px;
+        padding: 0 80px;
+        margin: 30px 0 50px;
+      }
+    
+      .aboutText {
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        padding: 40px 20px;
+      }
+      .aboutText p {
+        font-size: 16px;
+        padding: 0 50px;
+      }
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+ 
+      .personalAbout h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      .personalAbout p {
+        font-size: 16px;
+        padding: 0;
+        margin: 30px 0 50px;
+      }
+    
+      .aboutText {
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        padding: 40px 20px;
+      }
+      .aboutText p {
+        font-size: 16px;
+        padding: 0 110px;
+      }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+   
+      .personalAbout h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      .personalAbout p {
+        font-size: 16px;
+        padding: 0;
+        margin: 30px 0 50px;
+      }
+    
+      .aboutText {
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        padding: 40px 20px;
+      }
+      .aboutText p {
+        font-size: 16px;
+        padding: 0 50px;
+      }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+    
+      .personalAbout h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      .personalAbout p {
+        font-size: 16px;
+        padding: 0;
+        margin: 30px 0 50px;
+      }
+    
+      .aboutText {
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        padding: 40px 20px;
+      }
+      .aboutText p {
+        font-size: 16px;
+        padding: 0 50px;
+      }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+    
+      .personalAbout h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      .personalAbout p {
+        font-size: 16px;
+        padding: 0;
+        margin: 30px 0 50px;
+      }
+    
+      .aboutText {
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        padding: 40px 20px;
+      }
+      .aboutText p {
+        font-size: 16px;
+        padding: 0 20px;
+      }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+   
+      .personalAbout h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      .personalAbout p {
+        font-size: 16px;
+        padding: 0;
+        margin: 30px 0 50px;
+      }
+    
+      .aboutText {
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        padding: 40px 20px;
+      }
+      .aboutText p {
+        font-size: 16px;
+        padding: 0 20px;
+      }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+
+  .personalAbout h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .personalAbout p {
+    font-size: 16px;
+    padding: 0;
+    margin: 30px 0 50px;
+  }
+
+  .aboutText {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    padding: 40px 20px;
+  }
+  .aboutText p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+}

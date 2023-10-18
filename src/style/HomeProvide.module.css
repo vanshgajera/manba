@@ -1,0 +1,154 @@
+.provide{
+    padding: 0 0 100px;
+    text-align: center;
+}
+.provide img{
+    width: 100px;
+    transition: 0.9s all;
+}
+.provideText img:hover{
+    transform: translatey(-40px);
+}
+.provide p{
+font-size: 20px;
+font-weight: 400;
+padding: 0 50px;
+margin-top: 20px;
+}
+.provideText{
+    margin-top: 100px;
+}
+
+/*Responsive Home Page */
+/* Desktop 1600px */
+@media (max-width: 1850px) {
+    .provide p{
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 50px;
+        margin-top: 20px;
+        }
+        .provideText{
+            margin-top: 100px;
+        }
+}
+
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+    .provide p{
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 50px;
+        margin-top: 20px;
+        }
+        .provideText{
+            margin-top: 100px;
+        }
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+    .provide p{
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 50px;
+        margin-top: 20px;
+        }
+        .provideText{
+            margin-top: 100px;
+        }
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+  
+    .provide p{
+    font-size: 16px;
+    padding: 0 ;
+    }
+    .provideText{
+        margin-top: 50px;
+    }
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+    
+    .provide p{
+    font-size: 16px;
+    padding: 0 ;
+    }
+    .provideText{
+        margin-top: 50px;
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .provide img{
+        width: 100px;
+    }
+    .provide p{
+    font-size: 16px;
+    padding: 0 ;
+    }
+    .provideText{
+        margin-top: 50px;
+    }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+    .provide img{
+        width: 100px;
+    }
+    .provide p{
+    font-size: 16px;
+    padding: 0 ;
+    }
+    .provideText{
+        margin-top: 50px;
+    }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+    .provide img{
+        width: 100px;
+    }
+    .provide p{
+    font-size: 16px;
+    padding: 0 ;
+    }
+    .provideText{
+        margin-top: 50px;
+    }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+    .provide img{
+        width: 100px;
+    }
+    .provide p{
+    font-size: 16px;
+    padding: 0 ;
+    }
+    .provideText{
+        margin-top: 50px;
+    }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+    .provide img{
+        width: 100px;
+    }
+    .provide p{
+    font-size: 16px;
+    padding: 0 ;
+    }
+    .provideText{
+        margin-top: 50px;
+    }
+}

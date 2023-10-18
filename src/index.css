@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  font-size: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+}
+ol,
+li,
+ul {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+
+span{
+  display: inline-block;
+}
+
+
+  .btn{
+    position: relative;
+    color: #3498db;
+    border: 2px solid #3498db;
+    padding: 10px 20px;
+    display: block;
+    overflow: hidden;
+    font-size: 25px;
+    width: 100%;
+    max-width: 180px;
+    margin: 1rem auto;
+    text-transform: uppercase;
+    z-index: 9;
+    border-radius: 10px;
+    font-size: 20px;
+     &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: #3498db;
+      border-radius: 50%; 
+    }
+  
+    &:before {
+      left: -20px;
+      transition:  0.4s all;
+    }
+    
+    &:after {
+      right: -20px;
+      transition: 0.4s all;
+    }
+    @keyframes criss-cross-left {
+      0% {
+        left: 0;
+        transform: translate(-50%, -50%) scale(1);
+      }
+      50% {
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        width: 20px;
+        height: 20px;
+      }
+      100% {
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1.5);
+        width: 30px;
+        height: 30px;
+      }
+    }
+    
+    @keyframes criss-cross-right {
+      0% {
+        right: -20px;
+        transform: translate(50%, -50%) scale(1);
+      }
+      50% {
+        right: 50%;
+        transform: translate(50%, -50%) scale(1);
+        width: 20px;
+        height: 20px;
+      }
+      100% {
+        right: 50%;
+        transform: translate(50%, -50%) scale(1.5);
+        width: 30px;
+        height: 30px;
+      }
+    }
+    
+    /* Hover styles */
+    &:hover {
+      color: #fdfdfd!important; 
+    
+      &:before,
+      &:after {
+        width: 30px; 
+        height: 30px;
+        z-index: -1;
+      }
+      &:before {
+        animation: criss-cross-left 0.8s both;
+        animation-direction: alternate;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+       
+      }
+  
+      &:after {
+        animation: criss-cross-right 0.8s both;
+        animation-direction: alternate;
+        position: absolute;
+        right: 50%;
+        top: 0;
+        bottom: 0;
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+      } 
+  }
+ 
+  .btn:before, .btn:after {
+    position: absolute;
+    top: 50%;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #55a0e4;
+    border-radius: 50%;
+  }
+}
+/* button{
+  border-radius: 20px;
+background: #FFF;
+color: #000;
+font-size: 20px;
+font-weight: 600;
+padding: 10px 50px;
+border: none;
+transition: 0.4s all;
+}
+
+button:hover{
+  background-color: #00ADEF;
+  color: #FFF;
+} */
+
+
+
+/* iPad 768px */
+@media (max-width: 991px) {
+  .btn{
+    font-size: 16px;
+    }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+  .btn{
+    font-size: 16px;
+    }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+  .btn{
+    font-size: 16px;
+    }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+  .btn{
+    font-size: 16px;
+    }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+  .btn{
+    font-size: 16px;
+    }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+  .btn{
+  font-size: 16px;
+  }
+}

@@ -1,0 +1,673 @@
+.serviceLoan {
+  padding: 500px 0;
+  position: relative;
+  text-align: center;
+}
+.imgContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.serviceImg {
+  position: relative;
+}
+.serviceImg img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.imgContent h3 {
+  position: absolute;
+  font-size: 30px;
+}
+.personalLoan {
+  position: absolute;
+  text-align: center;
+  left: 80px;
+}
+.personalLoan p {
+  padding: 0;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 300px;
+}
+
+.imgContent h4 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.businessLoan {
+  position: absolute;
+  top: -410px;
+}
+.businessLoan p {
+  padding: 0;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 300px;
+}
+.goldLoan {
+  position: absolute;
+  right: 80px;
+}
+.goldLoan p {
+  padding: 0 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 300px;
+}
+.homeLoan {
+  position: absolute;
+  bottom: -450px;
+}
+.homeLoan p {
+  padding: 0;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 300px;
+}
+
+/* Desktop 1600px */
+@media (max-width: 1850px) {
+    .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 80px;
+      }
+      .personalLoan p {
+        padding: 0;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        width: 300px;
+      }
+      
+      .imgContent h4 {
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 600;
+      }
+      
+      .businessLoan {
+        position: absolute;
+        top: -410px;
+      }
+      .businessLoan p {
+        padding: 0;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        width: 300px;
+      }
+      .goldLoan {
+        position: absolute;
+        right: 80px;
+      }
+      .goldLoan p {
+        padding: 0 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        width: 300px;
+      }
+      .homeLoan {
+        position: absolute;
+        bottom: -450px;
+      }
+      .homeLoan p {
+        padding: 0;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        width: 300px;
+      }
+      
+}
+
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+    .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 80px;
+      }
+      .personalLoan p {
+        padding: 0;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        width: 300px;
+      }
+      
+      .imgContent h4 {
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 600;
+      }
+      
+      .businessLoan {
+        position: absolute;
+        top: -410px;
+      }
+      .businessLoan p {
+        padding: 0;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        width: 300px;
+      }
+      .goldLoan {
+        position: absolute;
+        right: 80px;
+      }
+      .goldLoan p {
+        padding: 0 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        width: 300px;
+      }
+      .homeLoan {
+        position: absolute;
+        bottom: -450px;
+      }
+      .homeLoan p {
+        padding: 0;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        width: 300px;
+      }
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+   
+      .personalLoan {
+        left: 12px;
+      }
+      .personalLoan p {
+        padding: 0 50px;
+        font-size: 16px;
+        width: 340px;
+      }
+      .imgContent h3{
+        font-size:25px ;
+      }
+      .imgContent h4 {
+      font-size: 24px;
+      }
+      
+      .businessLoan {
+        top: -410px;
+      }
+      .businessLoan p {
+        padding: 0;
+        font-size: 16px;
+        width: 340px;
+      }
+      .goldLoan {
+        right: -28px;
+      }
+      .goldLoan p {
+        padding: 0;
+        font-size: 16px;
+        width: 340px;
+      }
+      .homeLoan {
+        bottom: -420px;
+      }
+      .homeLoan p {
+        padding: 0 50px;
+        font-size: 16px;
+        width: 340px;
+      }
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+    .serviceLoan{
+        padding: 200px 0 500px;
+    }
+    .serviceImg img {
+        width: 250px;
+        height: 250px;
+      }
+      .imgContent h3 {
+        position: absolute;
+        font-size: 16px;
+      }
+      .personalLoan {
+        left: 116px;
+        bottom: -434px;
+      }
+      .personalLoan p {
+        padding: 0 ;
+        font-size: 14px;
+        width: 332px;
+      }
+      
+      .imgContent h4 {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      
+      .businessLoan {
+        top: 320px;
+        right: 56px;
+       
+      }
+      .businessLoan p {
+        padding: 0;
+        font-size: 14px;
+        width: 332px;
+      }
+      .goldLoan {
+        position: absolute;
+        right: 62px;
+        bottom: -257px;
+      }
+      .goldLoan p {
+        padding: 0;
+        font-size: 14px;
+        width: 332px;
+      }
+      .homeLoan {
+        position: absolute;
+        bottom: -265px;
+        left: 115px;
+      }
+      .homeLoan p {
+        padding: 0;
+        width: 332px;
+        font-size: 14px;
+      }
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+    .serviceLoan{
+        padding: 200px 0 700px;
+    }
+    .serviceImg img {
+        width: 250px;
+        height: 250px;
+      }
+      .imgContent h3 {
+        position: absolute;
+        font-size: 16px;
+      }
+      .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        bottom: -530px;
+      }
+      .personalLoan p {
+        padding: 0 200px;
+        font-size: 14px;
+        width: 100%;
+      }
+      
+      .imgContent h4 {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      
+      .businessLoan {
+       right: 0;
+        top: 540px;
+      }
+      .businessLoan p {
+        padding: 0 200px;
+        font-size: 14px;
+        width: 100%;
+      }
+      .goldLoan {
+        right: 0px;
+        bottom: -385px;
+      }
+      .goldLoan p {
+        padding: 0 200px;
+        width: 100%;
+        font-size: 14px;
+      }
+      .homeLoan {
+     left: 0;
+        bottom: -265px;
+      }
+      .homeLoan p {
+        padding: 0 200px;
+        width: 100%;
+        font-size: 14px;
+      }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .serviceLoan{
+        padding: 200px 0 700px;
+    }
+    .serviceImg img {
+        width: 250px;
+        height: 250px;
+      }
+      .imgContent h3 {
+        position: absolute;
+        font-size: 16px;
+      }
+      .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        bottom: -530px;
+      }
+      .personalLoan p {
+        padding: 0 50px;
+        font-size: 14px;
+        width: 100%;
+      }
+      
+      .imgContent h4 {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      
+      .businessLoan {
+      right: 0;
+        top: 540px;
+      }
+      .businessLoan p {
+        padding: 0 50px;
+        font-size: 14px;
+        width: 100%;
+      }
+      .goldLoan {
+        right: 0;
+        bottom: -385px;
+      }
+      .goldLoan p {
+        padding: 0 50px;
+        width: 100%;
+        font-size: 14px;
+      }
+      .homeLoan {
+        position: absolute;
+        bottom: -265px;
+        left: 0;
+      }
+      .homeLoan p {
+        padding: 0 50px;
+        width: 100%;
+        font-size: 14px;
+      }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+    .serviceLoan{
+        padding: 200px 0 700px;
+    }
+    .serviceImg img {
+        width: 250px;
+        height: 250px;
+      }
+      .imgContent h3 {
+        position: absolute;
+        font-size: 16px;
+      }
+      .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        bottom: -530px;
+      }
+      .personalLoan p {
+        padding: 0 50px;
+        font-size: 14px;
+        width: 100%;
+      }
+      
+      .imgContent h4 {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      
+      .businessLoan {
+        position: absolute;
+        top: 540px;
+        right: 0;
+      }
+      .businessLoan p {
+        padding: 0 50px;
+        font-size: 14px;
+        width: 100%;
+      }
+      .goldLoan {
+        position: absolute;
+        right: 0px;
+        bottom: -385px;
+      }
+      .goldLoan p {
+        padding: 0 50px;
+        width: 100%;
+        font-size: 14px;
+      }
+      .homeLoan {
+        position: absolute;
+        bottom: -265px;
+        left: 0;
+      }
+      .homeLoan p {
+        padding: 0 50px;
+        width: 100%;
+        font-size: 14px;
+       
+      }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+    .serviceLoan{
+        padding: 200px 0 700px;
+    }
+    .serviceImg img {
+        width: 250px;
+        height: 250px;
+      }
+      .imgContent h3 {
+        position: absolute;
+        font-size: 16px;
+      }
+      .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        bottom: -530px;
+      }
+      .personalLoan p {
+        padding: 0 50px;
+        font-size: 14px;
+        width: 100%;
+      }
+      
+      .imgContent h4 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      
+      .businessLoan {
+        top: 540px;
+        right: 0;
+      }
+      .businessLoan p {
+        padding: 0 50px;
+        font-size: 14px;
+        width: 100%;
+      }
+      .goldLoan {
+        right: 0px;
+        bottom: -385px;
+      }
+      .goldLoan p {
+        padding: 0 50px;
+        width: 100%;
+        font-size: 14px;
+      }
+      .homeLoan {
+        bottom: -265px;
+        left: 0;
+      }
+      .homeLoan p {
+        padding: 0 50px;
+        width: 100%;
+        font-size: 14px;
+      }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+
+    .serviceLoan{
+        padding: 150px 0 700px;
+    }
+    .serviceImg img {
+        width: 250px;
+        height: 250px;
+      }
+      .imgContent h3 {
+        position: absolute;
+        font-size: 16px;
+      }
+      .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        bottom: -530px;
+      }
+      .personalLoan p {
+        padding: 0 50px;
+        font-size: 12px;
+        width: 100%;
+      }
+      
+      .imgContent h4 {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      
+      .businessLoan {
+        position: absolute;
+        top: 540px;
+        right: 0;
+      }
+      .businessLoan p {
+        padding: 0 50px;
+        font-size: 12px;
+        width: 100%;
+      }
+      .goldLoan {
+        position: absolute;
+        right: 0px;
+        bottom: -385px;
+      }
+      .goldLoan p {
+        padding: 0 50px;
+        width: 100%;
+        font-size: 12px;
+      }
+      .homeLoan {
+        position: absolute;
+        bottom: -265px;
+        left: 0;
+      }
+      .homeLoan p {
+        padding: 0 50px;
+        width: 100%;
+        font-size: 12px;
+    
+      }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+    .serviceLoan{
+        padding: 150px 0 700px;
+    }
+    .serviceImg img {
+        width: 250px;
+        height: 250px;
+      }
+      .imgContent h3 {
+        position: absolute;
+        font-size: 16px;
+      }
+      .personalLoan {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        bottom: -530px;
+      }
+      .personalLoan p {
+        padding: 0 50px;
+        font-size: 12px;
+        width: 100%;
+      }
+      
+      .imgContent h4 {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      
+      .businessLoan {
+        position: absolute;
+        top: 540px;
+        right: 0;
+      }
+      .businessLoan p {
+        padding: 0 50px;
+        font-size: 12px;
+        width: 100%;
+      }
+      .goldLoan {
+        position: absolute;
+        right: 0px;
+        bottom: -385px;
+      }
+      .goldLoan p {
+        padding: 0 50px;
+        margin-top: 10px;
+        font-size: 12px;
+        width: 100%;
+      }
+      .homeLoan {
+        position: absolute;
+        bottom: -265px;
+        left: 0;
+      }
+      .homeLoan p {
+        padding: 0 50px;
+        margin-top: 10px;
+        font-size: 12px;
+        width: 100%;
+      }
+
+}

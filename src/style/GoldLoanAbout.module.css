@@ -1,0 +1,275 @@
+.loanAbout {
+  padding: 100px 0;
+  background: #f1fafe;
+  box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.loanAbout h3 {
+  font-size: 43px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.loanAbout h3 span {
+  color: #00adef;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.loanAbout p {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 30px 0 94px;
+}
+.loanContent img {
+  width: 100px;
+  height: 100px;
+  transition: 0.4s all;
+}
+.loanContent img:hover{
+    transform: translateY(-30px);
+}
+.loanContent h4 {
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #00adef;
+}
+.loanContent p {
+  padding: 0 64px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+/* Desktop 1600px */
+@media (max-width: 1850px) {
+  .loanAbout h3 {
+    font-size: 43px;
+  }
+
+  .loanAbout p {
+    font-size: 20px;
+    padding: 0 213px;
+  }
+
+  .loanContent h4 {
+    margin-top: 16px;
+  }
+  .loanContent p {
+    padding: 0 10px;
+  }
+}
+
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+  .loanAbout h3 {
+    font-size: 43px;
+  }
+
+  .loanAbout p {
+    font-size: 16px;
+    padding: 0 213px;
+  }
+
+  .loanContent h4 {
+    margin-top: 16px;
+  }
+  .loanContent p {
+    padding: 0 64px;
+  }
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+  .loanAbout h3 {
+    font-size: 43px;
+  }
+
+  .loanAbout p {
+    font-size: 16px;
+    padding: 0 213px;
+  }
+
+  .loanContent h4 {
+    margin-top: 16px;
+  }
+  .loanContent p {
+    padding: 0 94px;
+  }
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+  .loanAbout h3 {
+    font-size: 30px;
+  }
+
+  .loanAbout p {
+    font-size: 16px;
+    margin: 20px 0 80px;
+    padding: 0 100px;
+  }
+  .loanContent img {
+    width: 100px;
+    height: 100px;
+  }
+  .loanContent h4 {
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  .loanContent p {
+    padding: 0 17px;
+    font-size: 16px;
+  }
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+  .loanAbout h3 {
+    font-size: 30px;
+  }
+
+  .loanAbout p {
+    font-size: 16px;
+    margin: 20px 0 80px;
+    padding: 0;
+  }
+  .loanContent img {
+    width: 100px;
+    height: 100px;
+  }
+  .loanContent h4 {
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  .loanContent p {
+    padding: 0 50px;
+    font-size: 16px;
+  }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+  .loanAbout h3 {
+    font-size: 30px;
+  }
+
+  .loanAbout p {
+    font-size: 16px;
+    margin: 20px 0 80px;
+    padding: 0;
+  }
+  .loanContent img {
+    width: 100px;
+    height: 100px;
+  }
+  .loanContent h4 {
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  .loanContent p {
+    padding: 0 20px;
+    font-size: 16px;
+  }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+  .loanAbout h3 {
+    font-size: 30px;
+  }
+
+  .loanAbout p {
+    font-size: 12px;
+    margin: 20px 0 80px;
+    /* padding: 0; */
+  }
+  .loanContent img {
+    width: 100px;
+    height: 100px;
+  }
+  .loanContent h4 {
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  .loanContent p {
+    padding: 0 50px;
+    font-size: 16px;
+  }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+  .loanAbout h3 {
+    font-size: 30px;
+  }
+
+  .loanAbout p {
+    font-size: 12px;
+    margin: 20px 0 60px;
+    padding: 0;
+  }
+  .loanContent img {
+    width: 100px;
+    height: 100px;
+  }
+  .loanContent h4 {
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  .loanContent p {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+  .loanAbout h3 {
+    font-size: 30px;
+  }
+
+  .loanAbout p {
+    font-size: 12px;
+    margin: 20px 0 80px;
+    padding: 0;
+  }
+  .loanContent img {
+    width: 100px;
+    height: 100px;
+  }
+  .loanContent h4 {
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  .loanContent p {
+    padding: 0 30px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+  .loanAbout h3 {
+    font-size: 30px;
+  }
+
+  .loanAbout p {
+    font-size: 12px;
+    margin: 20px 0 80px;
+    padding: 0;
+  }
+  .loanContent img {
+    width: 100px;
+    height: 100px;
+  }
+  .loanContent h4 {
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  .loanContent p {
+    padding: 0;
+    font-size: 14px;
+  }
+}

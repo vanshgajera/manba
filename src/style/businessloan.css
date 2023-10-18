@@ -1,0 +1,728 @@
+.banner {
+  background-image: url("../Assets/businsse\ LoanBanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 250px 0;
+}
+
+.para {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.head1 {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 64px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.head2 {
+  color: #00adef;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 64px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.reason {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 43px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.maindiv {
+  padding: 100px 0;
+  background: #f1fafe;
+  box-shadow:5px 1px 19px 0px rgba(0, 0, 0, 0.1);
+}
+
+.variouspara {
+  color: #000;
+  margin: 24px 0;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.learned {
+  flex-direction: column;
+  color: #000;
+  text-align: center;
+  margin: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-right: 53px;
+}
+
+.businesspara {
+  color: #000;
+  margin-top: 30px;
+  text-align: start;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.mainFactor {
+  padding: 100px 0;
+}
+.factor {
+  color: #000;
+  font-family: Poppins;
+  font-size: 43px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-left: 10px;
+  line-height: 1.4;
+}
+.factor span {
+  display: inline;
+
+}
+.money{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.money h5{
+margin-left: 50px;
+}
+.imgg {
+  position: relative;
+}
+
+.divvv {
+  /* position: relative; */
+  bottom: 55px;
+  left: 125px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.learned{
+  overflow: hidden;
+  border-radius: 40px;
+}
+.learned img{
+  transition: 0.4s all;
+  overflow: hidden;
+}
+.learned img:hover{
+  transform: scale(1.1);
+}
+
+.dispaycontent {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.imgg img{
+  transition: 0.4s all;
+}
+.imgg img:hover{
+  transform: scale(1.1);
+}
+.button-19{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.InterestRate {
+  /* position: relative; */
+  right: 264px;
+}
+
+/*Responsive Home Page */
+/* Desktop 1600px */
+@media (max-width: 1850px) {
+    .para {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 300;
+        margin-top: 20px;
+      }
+    
+      .head1 h2 {
+        font-size: 43px;
+      }
+    
+      .head2 h2 {
+        font-size: 43px;
+      }
+    
+      .reason {
+        font-size: 43px;
+      }
+    
+      .maindiv {
+        padding: 100px 0;
+        background: #f1fafe;
+        box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    
+      .variouspara {
+        font-size: 20px;
+        padding:0 50px;
+        margin-bottom: 50px;
+      }
+    
+      .learned {
+        margin: 0;
+        padding-right: 0;
+      }
+    
+      .businesspara {
+        margin: 20px 0 50px;
+        font-size: 16px;
+        text-align: start;
+        padding: 0 20px;
+      }
+}
+
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+    .para {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 300;
+        margin-top: 20px;
+      }
+    
+      .head1 h2 {
+        font-size: 43px;
+      }
+    
+      .head2 h2 {
+        font-size: 43px;
+      }
+    
+      .reason {
+        font-size: 43px;
+      }
+    
+      .maindiv {
+        padding: 100px 0;
+        background: #f1fafe;
+        box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    
+      .variouspara {
+        font-size: 20px;
+        padding:0 50px;
+        margin-bottom: 50px;
+      }
+    
+      .learned {
+        margin: 0;
+        padding-right: 0;
+      }
+    
+      .businesspara {
+        margin: 20px 0 50px;
+        font-size: 16px;
+        text-align: start;
+        padding: 0 20px;
+      }
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+    .para {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 300;
+        margin-top: 20px;
+      }
+    
+      .head1 h2 {
+        font-size: 43px;
+      }
+    
+      .head2 h2 {
+        font-size: 43px;
+      }
+    
+      .reason {
+        font-size: 43px;
+      }
+    
+      .maindiv {
+        padding: 100px 0;
+        background: #f1fafe;
+        box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    
+      .variouspara {
+        font-size: 20px;
+        padding:0 50px;
+        margin-bottom: 50px;
+      }
+    
+      .learned {
+        margin: 0;
+        padding-right: 0;
+      }
+    
+      .businesspara {
+        margin: 20px 0 50px;
+        font-size: 16px;
+        text-align: start;
+        padding: 0 20px;
+      }
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+   
+    .para {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 300;
+        margin-top: 20px;
+      }
+    
+      .head1 h2 {
+        font-size: 30px;
+      }
+    
+      .head2 h2 {
+        font-size: 30px;
+      }
+    
+      .reason {
+        font-size: 30px;
+      }
+    
+      .maindiv {
+        padding: 100px 0;
+        background: #f1fafe;
+        box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    
+      .variouspara {
+        font-size: 16px;
+        padding:0 50px;
+        margin-bottom: 50px;
+      }
+    
+      .learned {
+        margin: 0;
+        padding-right: 0;
+      }
+    
+      .businesspara {
+        margin: 20px 0 50px;
+        font-size: 16px;
+        text-align: start;
+        padding: 0 20px;
+      }
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+    .para {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 300;
+        margin-top: 20px;
+      }
+    
+      .head1 h2 {
+        font-size: 30px;
+      }
+    
+      .head2 h2 {
+        font-size: 30px;
+      }
+    
+      .reason {
+        font-size: 30px;
+      }
+    
+      .maindiv {
+        padding: 100px 0 0;
+        background: #f1fafe;
+        box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    
+      .variouspara {
+        font-size: 16px;
+        padding:0 50px;
+      }
+    
+      .learned {
+        margin: 0;
+        padding-right: 0;
+      }
+    
+      .businesspara {
+        margin: 20px 0 50px;
+        font-size: 16px;
+        text-align: center;
+        padding: 0 20px;
+      }
+      .factor{
+        font-size: 30px;
+        text-align: center;
+      }
+      .money h5{
+        font-size: 16px;
+        margin-left: 10px;
+      }
+    
+      .button-19{
+          margin-top: 20px;
+          font-size: 16px;
+      }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .para {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 300;
+        margin-top: 20px;
+      }
+    
+      .head1 h2 {
+        font-size: 30px;
+      }
+    
+      .head2 h2 {
+        font-size: 30px;
+      }
+    
+      .reason {
+        font-size: 30px;
+      }
+    
+      .maindiv {
+        padding: 100px 0 0;
+        background: #f1fafe;
+        box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    
+      .variouspara {
+        font-size: 16px;
+        padding:0 50px;
+      }
+    
+      .learned {
+        margin: 0;
+        padding-right: 0;
+      }
+    
+      .businesspara {
+        margin: 20px 0 50px;
+        font-size: 16px;
+        text-align: center;
+        padding: 0 20px;
+      }
+      .factor{
+        font-size: 30px;
+        padding: 0;
+        text-align: center;
+      }
+      .money h5{
+        font-size: 20px;
+        margin-left: 10px;
+      }
+    
+      .button-19{
+          margin-top: 20px;
+          font-size: 16px;
+      }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+    .para {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 300;
+        margin-top: 20px;
+      }
+    
+      .head1 h2 {
+        font-size: 30px;
+      }
+    
+      .head2 h2 {
+        font-size: 30px;
+      }
+    
+      .reason {
+        font-size: 30px;
+      }
+    
+      .maindiv {
+        padding: 100px 0 0;
+        background: #f1fafe;
+        box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    
+      .variouspara {
+        font-size: 16px;
+        padding:0 50px;
+      }
+    
+      .learned {
+        margin: 0;
+        padding-right: 0;
+      }
+    
+      .businesspara {
+        margin: 20px 0 50px;
+        font-size: 16px;
+        text-align: center;
+        padding: 0 20px;
+      }
+      .factor{
+        font-size: 30px;
+        text-align: center;
+      }
+      .money h5{
+        font-size: 20px;
+        margin-left: 10px;
+      }
+    
+      .button-19{
+          margin-top: 20px;
+          font-size: 16px;
+      }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+    .para {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 300;
+        margin-top: 20px;
+      }
+    
+      .head1 h2 {
+        font-size: 30px;
+      }
+    
+      .head2 h2 {
+        font-size: 30px;
+      }
+    
+      .reason {
+        font-size: 30px;
+      }
+    
+      .maindiv {
+        padding: 100px 0 0;
+        background: #f1fafe;
+        box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    
+      .variouspara {
+        font-size: 16px;
+      }
+    
+      .learned {
+        margin: 0;
+        padding-right: 0;
+      }
+    
+      .businesspara {
+        margin: 20px 0 50px;
+        font-size: 16px;
+        text-align: center;
+      }
+      .factor{
+        font-size: 30px;
+        text-align: center;
+      }
+      .money h5{
+        font-size: 16px;
+        margin-left: 10px;
+      }
+    
+      .button-19{
+          margin-top: 20px;
+          font-size: 16px;
+      }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+    .para {
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 300;
+        margin-top: 20px;
+      }
+    
+      .head1 h2 {
+        font-size: 30px;
+      }
+    
+      .head2 h2 {
+        font-size: 30px;
+      }
+    
+      .reason {
+        font-size: 30px;
+      }
+    
+      .maindiv {
+        padding: 100px 0 0;
+        background: #f1fafe;
+        box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    
+      .variouspara {
+        font-size: 16px;
+      }
+    
+      .learned {
+        margin: 0;
+        padding-right: 0;
+      }
+    
+      .businesspara {
+        margin: 20px 0 50px;
+        font-size: 16px;
+        text-align: center;
+      }
+      .factor{
+        font-size: 30px;
+      }
+      .money h5{
+        font-size: 14px;
+        margin-left: 10px;
+      }
+    
+      .button-19{
+          margin-top: 20px;
+          font-size: 16px;
+      }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+  .para {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+
+  .head1 h2 {
+    font-size: 30px;
+  }
+
+  .head2 h2 {
+    font-size: 30px;
+  }
+
+  .reason {
+    font-size: 30px;
+  }
+
+  .maindiv {
+    padding: 100px 0 0;
+    background: #f1fafe;
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .variouspara {
+    font-size: 16px;
+  }
+
+  .learned {
+    margin: 0;
+    padding-right: 0;
+  }
+
+  .businesspara {
+    margin: 20px 0 50px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .mainFactor {
+    padding: 100px 0;
+  }
+  .factor {
+    padding-top: 100px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-left: 10px;
+  }
+  .factor span {
+    display: inline;
+  }
+  .dispaycontent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .money h5{
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .button-19{
+      margin-top: 20px;
+      font-size: 16px;
+  }
+}

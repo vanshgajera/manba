@@ -1,0 +1,154 @@
+.loansType{
+    padding-top: 80px;
+}
+.loansType h3{
+    color: #00ADEF;
+font-size: 43px;
+font-weight: 400;
+text-transform: capitalize;
+text-align: center;
+}
+.loansType ul{
+    margin-top: 50px;
+}
+.loansType ul li{
+    list-style: disc;
+font-size: 30px;
+font-weight: 100;
+text-transform: capitalize;
+margin-bottom: 10px ;
+padding-right: 50px;
+}
+
+
+
+
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+    .loansType h3{
+        font-size: 43px;
+        margin-bottom: 30px;
+        }
+        .loansType ul{
+            margin: 0;
+        }
+        .loansType ul li{
+        font-size: 25px;
+        margin-bottom: 20px ;
+        padding-right:  50px;
+        }
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+    .loansType h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+        }
+        .loansType ul{
+            margin: 0;
+        }
+        .loansType ul li{
+        font-size: 20px;
+        margin-bottom: 20px ;
+        padding-right:  50px;
+        }
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+    .loansType h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+        }
+        .loansType ul{
+            margin: 0;
+        }
+        .loansType ul li{
+        font-size: 20px;
+        margin-bottom: 20px ;
+        padding-right: 0;
+        }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .loansType h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+        }
+        .loansType ul{
+            margin: 0;
+        }
+        .loansType ul li{
+        font-size: 20px;
+        margin-bottom: 20px ;
+        padding-right: 0;
+        }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+    .loansType h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+        }
+        .loansType ul{
+            margin: 0;
+        }
+        .loansType ul li{
+        font-size: 20px;
+        margin-bottom: 20px ;
+        padding-right: 0;
+        }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+    .loansType h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+        }
+        .loansType ul{
+            margin: 0;
+        }
+        .loansType ul li{
+        font-size: 20px;
+        margin-bottom: 20px ;
+        padding-right: 0;
+        }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+    .loansType h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+        }
+        .loansType ul{
+            margin: 0;
+        }
+        .loansType ul li{
+        font-size: 20px;
+        margin-bottom: 20px ;
+        padding-right: 0;
+        }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+    .loansType h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    }
+    .loansType ul{
+        margin: 0;
+    }
+    .loansType ul li{
+    font-size: 20px;
+    margin-bottom: 20px ;
+    padding-right: 0;
+    }
+    
+}

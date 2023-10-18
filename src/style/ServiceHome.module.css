@@ -1,0 +1,275 @@
+.serviceBanner {
+  padding: 45px 0 100px;
+  background-image: url(../Assets/servicebanner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.typewriter {
+  width: 12ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #00adef;
+  animation: text 5s steps(18) alternate, hideCursor 1s 6s forwards;
+}
+
+@keyframes text {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 12ch;
+  }
+}
+
+@keyframes hideCursor {
+  0% {
+    border-color: #00adef;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+.serviceBanner h6 {
+  color: #00adef;
+  margin-bottom: 87px;
+  font-size: 30px;
+}
+.serviceBanner a {
+  color: #fff;
+}
+.serviceBanner span {
+  color: #00adef;
+}
+.serviceBanner h3 {
+  color: #fff;
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.serviceBanner p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  padding-right: 475px;
+  margin: 41px 0 99px;
+}
+
+/* .serviceBanner .applyBtn {
+  background-color: #fff;
+  margin: 0;
+  border: 3px solid #55a0e4;
+  color: #55a0e4;
+} */
+
+.serviceBanner .applyBtn{
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 10rem;
+  color: #00adef;
+  background: #fff ; ;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.serviceBanner .applyBtn:hover{
+  color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+.serviceBanner .applyBtn::after{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: -213px;
+  width: 100%;
+  height: 100%;
+  color: #00adef;
+  background: #fcfcfc;
+  border-radius: 10rem;
+  transition: 0.4s all;
+    z-index: -5;
+}
+
+.serviceBanner .applyBtn:hover::after{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: #000 !important;
+  background: #00ADEF;
+}
+
+/* Desktop 1600px */
+@media (max-width: 1850px) {
+  .serviceBanner h3 {
+    font-size: 43px;
+    font-weight: 600;
+  }
+  .serviceBanner p {
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 480px;
+  }
+}
+
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+  .serviceBanner h3 {
+    font-size: 43px;
+    font-weight: 600;
+  }
+  .serviceBanner p {
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 480px;
+  }
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+
+  .serviceBanner h3 {
+    font-size: 43px;
+    font-weight: 600;
+  }
+  .serviceBanner p {
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 480px;
+  }
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+  .serviceBanner {
+    padding: 100px 0;
+    background-size: cover;
+  }
+  .serviceBanner h3 {
+    font-size: 30px;
+  }
+  .serviceBanner p {
+    font-size: 16px;
+    padding-right: 480px;
+    margin: 41px 0 80px;
+  }
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+  .serviceBanner {
+    padding: 100px 0;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .serviceBanner h3 {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .serviceBanner p {
+    font-size: 16px;
+    padding: 0 90px;
+    margin: 41px 0 80px;
+  }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+  .serviceBanner {
+    padding: 100px 0;
+    background-size: cover;
+    text-align: center;
+  }
+  .serviceBanner h3 {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .serviceBanner p {
+    font-size: 16px;
+    padding: 0 50px;
+    margin: 41px 0 80px;
+  }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+  .serviceBanner {
+    padding: 100px 0;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .serviceBanner h3 {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .serviceBanner p {
+    font-size: 16px;
+    padding: 0 50px;
+    margin: 41px 0 80px;
+  }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+  .serviceBanner {
+    padding: 100px 0;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .serviceBanner h3 {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .serviceBanner p {
+    font-size: 16px;
+    padding: 0;
+    margin: 41px 0 80px;
+  }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+  .serviceBanner {
+    padding: 100px 0;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .serviceBanner h3 {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .serviceBanner p {
+    font-size: 16px;
+    padding: 0;
+    margin: 41px 0 80px;
+  }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+  .serviceBanner {
+    padding: 100px 0;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .serviceBanner h3 {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .serviceBanner p {
+    font-size: 16px;
+    padding: 0;
+    margin: 41px 0 80px;
+  }
+}

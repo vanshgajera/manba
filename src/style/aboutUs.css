@@ -1,0 +1,898 @@
+.aboutBanner{
+    padding: 100px 0 ;
+    background-image: url(../Assets/aboutBanner.png);
+    background-repeat: no-repeat;
+}
+
+.aboutBanner h6{
+  color: #00ADEF;
+  margin-bottom: 87px;
+}
+.aboutBanner a{
+  color: #fff;
+}
+
+.button-14 {
+  text-decoration: underline;
+  font-size: 25px;
+  /* display: inline-flex;
+  padding: 20px 0;
+  border: 2px solid #BFC0C0;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center; */
+}
+/* .button-14:hover{
+  padding: 10px 50px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  } */
+a {
+  /* color: #BFC0C0; */
+  
+  letter-spacing: 1px;
+
+}
+/* #button-5 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  
+} */
+
+/* #button-5 a {
+  position: relative;
+  transition: all .45s ease-Out;
+  
+}
+
+
+#translate {
+  transform: rotate(50deg);
+  width: 100%;
+  padding: 59px 0;
+  left: -800px;
+  top: -30px;
+  background: #BFC0C0;
+  position: absolute;
+  transition: all .3s ease-Out;
+}
+
+#button-5:hover #translate {
+  left: -542px;
+}
+
+#button-5:hover a {
+  color: #2D3142;
+} */
+
+
+.about h3 {
+  font-size: 43px;
+  text-align: center;
+  padding: 0;
+  font-size: 43px;
+  text-decoration: underline;
+  text-align: center;
+  color: #00adef;
+}
+
+.pra {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  margin-top: 70px;
+  text-transform: capitalize;
+  padding-bottom: 50px;
+}
+
+.title h3 {
+  color: #00adef;
+  font-size: 43px;
+  line-height: normal;
+  text-align: center;
+}
+
+.valuepra p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+}
+
+.valueup {
+  background: #f1fafe;
+    padding-top: 80px;
+    box-shadow: 5px 1px 19px 0px rgba(0, 0, 0, 0.1);
+    padding-bottom: 80px;
+}
+
+.create {
+  padding-top: 50px;
+}
+
+.create h3 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+}
+
+.create p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+}
+
+.aboutMain h3 {
+  color: #00adef;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.fastloan {
+  border-radius: 25px;
+  background: #2dbcf6;
+  box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.18);
+  padding: 50px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.fastloan h3 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+.fastloan p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.mainloan {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.mainloan p {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding-bottom: 27px;
+}
+
+.mainloan h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  text-transform: capitalize;
+  padding-top: 27px;
+}
+.aboutMain {
+  padding: 50px 0 100px;
+}
+
+.loanimg {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 85px;
+}
+.fastloan img{
+  transition: 0.4s all;
+}
+.fastloan:hover img{
+transform: scale(1.5);
+}
+.round {
+  border-radius: 80%;
+  background: #fff;
+  padding-left: 80px;
+  width: 120px;
+  height: 120px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+    .about {
+        padding: 0;
+      }
+      .messageBtn {
+        font-size: 16px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+    
+      .button-14 {
+        font-size: 24px;
+      }
+    
+      .firsthead h3 {
+        font-size: 30px;
+      }
+      .pra {
+        font-size: 14px;
+        margin-top: 50px;
+        text-align: center;
+      }
+    
+      .title h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .valuepra p {
+        margin: 0;
+        font-size: 16px;
+      }
+    
+      .valueup {
+        background: #f1fafe;
+        padding: 100px 0;
+        box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.25);
+      }
+    
+      .create {
+        padding-top: 100px;
+      }
+    
+      .create h3 {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 43px;
+      }
+    
+      .create p {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+      }
+    
+      .aboutMain h3 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 50px;
+      }
+    
+      .fastloan {
+        padding:20px 10px 30px ;
+        margin:0 0 50px 0;
+      }
+      .fastloan h3 {
+        font-size: 30px;
+        margin: 30px 0;
+      }
+    
+      .fastloan p {
+        font-size: 14px;
+        text-align: center;
+      }
+    
+      .mainloan {
+        padding-top: 50px;
+      }
+    
+      .mainloan p {
+        font-size: 16px;
+        padding-bottom: 27px;
+      }
+    
+      .aboutMain {
+        padding: 100px 0;
+      }
+    
+      .loanimg {
+        top: 73px;
+      }
+    
+      .round {
+        padding-left: 80px;
+        width: 99px;
+        height: 99px;
+      }
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+    .about {
+        padding: 0;
+      }
+      .messageBtn {
+        font-size: 16px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+    
+      .button-14 {
+        font-size: 24px;
+      }
+    
+      .firsthead h3 {
+        font-size: 30px;
+      }
+      .pra {
+        font-size: 14px;
+        margin-top: 50px;
+        text-align: center;
+      }
+    
+      .title h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .valuepra p {
+        margin: 0;
+        font-size: 16px;
+      }
+    
+      .valueup {
+        background: #f1fafe;
+        padding: 100px 0;
+        box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.25);
+      }
+    
+      .create {
+        padding-top: 100px;
+      }
+    
+      .create h3 {
+        text-align: center;
+        font-size: 43px;
+      }
+    
+      .create p {
+        text-align: center;
+        font-size: 16px;
+      }
+    
+      .aboutMain h3 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 50px;
+      }
+    
+      .fastloan {
+        padding: 30px 10px;
+        padding-top: 20px;
+        margin:0 0 50px 0;
+      }
+      .fastloan h3 {
+        font-size: 30px;
+        margin: 30px 0;
+      }
+    
+      .fastloan p {
+        font-size: 16px;
+        padding: 0 110px;
+      }
+    
+      .mainloan {
+        padding-top: 50px;
+      }
+    
+      .mainloan p {
+        font-size: 16px;
+        padding-bottom: 27px;
+      }
+    
+      .aboutMain {
+        padding: 100px 0;
+      }
+    
+      .loanimg {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 73px;
+      }
+    
+      .round {
+        padding-left: 80px;
+        width: 99px;
+        height: 99px;
+      }
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+    .about {
+        padding: 0;
+      }
+      .messageBtn {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+    
+      .button-14 {
+        font-size: 24px;
+      }
+    
+      .firsthead h3 {
+        font-size: 30px;
+      }
+      .pra {
+        font-size: 14px;
+        margin-top: 50px;
+        text-align: center;
+      }
+    
+      .title h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .valuepra p {
+        margin: 0;
+        font-size: 16px;
+      }
+    
+      .valueup {
+        padding: 100px 0;
+      }
+    
+      .create {
+        padding-top: 100px;
+      }
+    
+      .create h3 {
+        text-align: center;
+        font-size: 43px;
+      }
+    
+      .create p {
+        text-align: center;
+        font-size: 16px;
+      }
+    
+      .aboutMain h3 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 50px;
+      }
+    
+      .fastloan {
+        padding: 30px 10px;
+        padding-top: 20px;
+        margin:0 0 50px 0;
+      }
+      .fastloan h3 {
+    font-size: 30px;
+        margin: 30px 0;
+      }
+    
+      .fastloan p {
+        font-size: 14px;
+        text-align: center;
+      }
+    
+      .mainloan {
+        padding-top: 50px;
+      }
+    
+      .mainloan p {
+        font-size: 16px;
+        padding-bottom: 27px;
+      }
+    
+      .aboutMain {
+        padding: 100px 0;
+      }
+    
+      .loanimg {
+        top: 73px;
+      }
+    
+      .round {
+        padding-left: 80px;
+        width: 99px;
+        height: 99px;
+      }
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+    .about {
+        padding: 0;
+      }
+      .messageBtn {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+    
+      .button-14 {
+        font-size: 24px;
+      }
+    
+      .firsthead h3 {
+        font-size: 30px;
+      }
+      .pra {
+        font-size: 14px;
+        margin-top: 50px;
+        text-align: center;
+      }
+    
+      .title h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .valuepra p {
+        margin: 0;
+        font-size: 16px;
+      }
+ 
+      .create {
+        padding-top: 100px;
+      }
+    
+      .create h3 {
+        text-align: center;
+        font-size: 43px;
+      }
+    
+      .create p {
+        text-align: center;
+        font-size: 16px;
+      }
+    
+      .aboutMain h3 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 50px;
+      }
+    
+      .fastloan {
+        padding: 30px 10px;
+        padding-top: 20px;
+        margin:0 0 50px 0;
+      }
+      .fastloan h3 {
+        font-size: 30px;
+        margin: 30px 0;
+      }
+    
+      .fastloan p {
+        font-size: 14px;
+        text-align: center;
+      }
+    
+      .mainloan {
+        padding-top: 50px;
+      }
+    
+      .mainloan p {
+        font-size: 16px;
+        padding-bottom: 27px;
+      }
+    
+      .aboutMain {
+        padding: 100px 0;
+      }
+    
+      .loanimg {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 73px;
+      }
+    
+      .round {
+        padding-left: 80px;
+        width: 99px;
+        height: 99px;
+      }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+    .about {
+        padding: 0;
+      }
+      .messageBtn {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+    
+      .button-14 {
+        font-size: 24px;
+      }
+    
+      .firsthead h3 {
+        font-size: 30px;
+      }
+      .pra {
+        font-size: 14px;
+        margin-top: 50px;
+        text-align: center;
+      }
+    
+      .title h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .valuepra p {
+        margin: 0;
+        font-size: 16px;
+      }
+    
+      .valueup {
+        padding: 100px 0;
+      }
+    
+      .create {
+        padding-top: 100px;
+      }
+    
+      .create h3 {
+        text-align: center;
+        font-size: 43px;
+      }
+    
+      .create p {
+        text-align: center;
+        font-size: 16px;
+      }
+    
+      .aboutMain h3 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 50px;
+      }
+    
+      .fastloan {
+        padding:20px 10px 30px ;
+        margin:0 0 50px 0;
+      }
+      .fastloan h3 {
+        font-size: 30px;
+        margin: 30px 0;
+      }
+    
+      .fastloan p {
+        font-size: 14px;
+        text-align: center;
+      }
+    
+      .mainloan {
+        padding-top: 50px;
+      }
+    
+      .mainloan p {
+        font-size: 16px;
+        padding-bottom: 27px;
+      }
+    
+      .aboutMain {
+        padding: 100px 0;
+      }
+    
+      .loanimg {
+        top: 73px;
+      }
+    
+      .round {
+        padding-left: 80px;
+        width: 99px;
+        height: 99px;
+      }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+    .about {
+        padding: 0;
+      }
+      .messageBtn {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+    
+      .button-14 {
+        font-size: 24px;
+      }
+    
+      .firsthead h3 {
+        font-size: 30px;
+      }
+      .pra {
+        font-size: 14px;
+        margin-top: 50px;
+        text-align: center;
+      }
+    
+      .title h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .valuepra p {
+        margin: 0;
+        font-size: 16px;
+      }
+    
+      .valueup {
+        padding: 100px 0;
+      }
+    
+      .create {
+        padding-top: 100px;
+      }
+    
+      .create h3 {
+        text-align: center;
+        font-size: 43px;
+      }
+    
+      .create p {
+        text-align: center;
+        font-size: 16px;
+      }
+    
+      .aboutMain h3 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 50px;
+      }
+    
+      .fastloan {
+        padding:20px 10px 30px ;
+        margin:0 0 50px 0;
+      }
+      .fastloan h3 {
+        font-size: 30px;
+        margin: 30px 0;
+      }
+    
+      .fastloan p {
+        font-size: 14px;
+        text-align: center;
+      }
+    
+      .mainloan {
+        padding-top: 50px;
+      }
+    
+      .mainloan p {
+        font-size: 16px;
+        padding-bottom: 27px;
+      }
+    
+      .aboutMain {
+        padding: 100px 0;
+      }
+    
+      .loanimg {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 73px;
+      }
+    
+      .round {
+        padding-left: 80px;
+        width: 99px;
+        height: 99px;
+      }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+  .about {
+    padding: 0;
+  }
+  .messageBtn {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .button-14 {
+    font-size: 24px;
+  }
+
+  .firsthead h3 {
+    font-size: 30px;
+  }
+  .pra {
+    font-size: 14px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .title h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .valuepra p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .create {
+    padding-top: 100px;
+  }
+
+  .create h3 {
+    text-align: center;
+    font-size: 43px;
+  }
+
+  .create p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .aboutMain h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  .fastloan {
+    padding: 30px 10px;
+    padding-top: 20px;
+    margin:0 0 50px 0;
+  }
+  .fastloan h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px 0;
+  }
+
+  .fastloan p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .mainloan {
+    padding-top: 50px;
+  }
+
+  .mainloan p {
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-bottom: 27px;
+  }
+
+  .aboutMain {
+    padding: 100px 0;
+  }
+
+  .loanimg {
+    top: 73px;
+  }
+
+  .round {
+    padding-left: 80px;
+    width: 99px;
+    height: 99px;
+  }
+}
